@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <h1>Quiz</h1>
+
+    <form id="quiz" name="quiz">
+
+        <p>_______ in India is known as Orange City.</p>
+        <input type="radio" id="mc" name="question1" value="Nagpur">Nagpur<br>
+        <input type="radio" id="mc" name="question1" value="Bhopal">Bhopal<br>
+        <input type="radio" id="mc" name="question1" value="Surat">Surat<br>
+        <input type="radio" id="mc" name="question1" value="Jodhpur">Jodhpur<br>
+
+        <p>The famous Sun Temple in India is located at ________.</p>
+        <input type="radio" id="mc" name="question2" value="Jaipur">Jaipur<br>
+        <input type="radio" id="mc" name="question2" value="Konark">Konark<br>
+        <input type="radio" id="mc" name="question2" value="Jodhpur">Jodhpur<br>
+        <input type="radio" id="mc" name="question2" value="Surat">Surat<br>
+
+        <p>The Parliament of India is located at _________.</p>
+        <input type="radio" id="mc" name="question3" value="Mumbai">Mumbai<br>
+        <input type="radio" id="mc" name="question3" value="Lucknow">Lucknow<br>
+        <input type="radio" id="mc" name="question3" value="New Delhi">New Delhi<br>
+        <input type="radio" id="mc" name="question3" value="Bangalore">Bangalore<br>
+
+        <p>_______ in India is known as Pink City.</p>
+        <input type="radio" id="mc" name="question4" value="Mumbai">Mumbai<br>
+        <input type="radio" id="mc" name="question4" value="Jodhpur">Jodhpur<br>
+        <input type="radio" id="mc" name="question4" value="Ahmedabad">Ahmedabad<br>
+        <input type="radio" id="mc" name="question4" value="Jaipur">Jaipur<br>
+
+        <p>_______ in India is called the City of Nawabs</p>
+        <input type="radio" id="mc" name="question5" value="Lucknow">Lucknow<br>
+        <input type="radio" id="mc" name="question5" value="Udaipur">Udaipur<br>
+        <input type="radio" id="mc" name="question5" value="Amritsar">Amritsar<br>
+        <input type="radio" id="mc" name="question5" value="Jodhpur">Jodhpur<br>
+
+        <p>_______ in India is called the City of Temples.</p>
+        <input type="radio" id="mc" name="question6" value="Shimla">Shimla<br>
+        <input type="radio" id="mc" name="question6" value="Nashik">Nashik<br>
+        <input type="radio" id="mc" name="question6" value="Bhubaneshwar">Bhubaneshwar<br>
+        <input type="radio" id="mc" name="question6" value="Nanded">Nanded<br>
+
+        <p>The Finance capital of India is _______.</p>
+        <input type="radio" id="mc" name="question7" value="Bangalore">Bangalore<br>
+        <input type="radio" id="mc" name="question7" value="Mumbai">Mumbai<br>
+        <input type="radio" id="mc" name="question7" value="Delhi">Delhi<br>
+        <input type="radio" id="mc" name="question7" value="Chennai">Chennai<br>
+
+        <p>This city is known as the City of Lakes: ______</p>
+        <input type="radio" id="mc" name="question8" value="Jodhpur">Jodhpur<br>
+        <input type="radio" id="mc" name="question8" value="Udaipur">Udaipur<br>
+        <input type="radio" id="mc" name="question8" value="Nagpur">Nagpur<br>
+        <input type="radio" id="mc" name="question8" value="Surat">Surat<br>
+
+        <p>_______ is called the Oxford of the East.</p>
+        <input type="radio" id="mc" name="question9" value="Nashik">Nashik<br>
+        <input type="radio" id="mc" name="question9" value="Mumbai">Mumbai<br>
+        <input type="radio" id="mc" name="question9" value="Pune">Pune<br>
+        <input type="radio" id="mc" name="question9" value="Aurangabad">Aurangabad<br>
+
+        <p>Capital city of India is _______.</p>
+        <input type="radio" id="mc" name="question10" value="Bangalore">Bangalore<br>
+        <input type="radio" id="mc" name="question10" value="Mumbai">Mumbai<br>
+        <input type="radio" id="mc" name="question10" value="Delhi">Delhi<br>
+        <input type="radio" id="mc" name="question10" value="Chennai">Chennai<br>
+    </br>
+        <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+    </form>
+
+    <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+    </div>
+
+    <button onclick="myFunction()">Restart</button>
+
+</body>
+</html>
